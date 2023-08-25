@@ -10,7 +10,7 @@ def create_employee(
         age: int,
         hire_date: datetime.date,
         is_admin: bool,
-        salary: float, #"2021-12-15"
+        salary: float,
         ) -> Employee:
     
     employee = Employee.objects.create(
